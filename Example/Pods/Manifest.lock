@@ -1,0 +1,14 @@
+PODS:
+  - AMEdgeView (0.1.0)
+
+DEPENDENCIES:
+  - AMEdgeView (from `../`)
+
+EXTERNAL SOURCES:
+  AMEdgeView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AMEdgeView: 39738258d8f2ae71207f644c64b6ddda3d07d60d
+
+COCOAPODS: 0.39.0
