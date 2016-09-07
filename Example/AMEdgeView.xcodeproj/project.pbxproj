@@ -8,19 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
-		972ADCAAEDBDE0F77C8D20B8 /* Pods_AMEdgeView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C89EBF71C3F6F92D29FF9388 /* Pods_AMEdgeView_Tests.framework */; };
+		F7DE6D7293A006871BF39A8E /* Pods_AMEdgeView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E74218D5DD80A982CF3C34BD /* Pods_AMEdgeView_Tests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		21B185F1895A592DFBED3643 /* Pods-AMEdgeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMEdgeView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMEdgeView_Tests/Pods-AMEdgeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		46AC802F2C8A0430E4FB2DAA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		51EC2C175D37512A6678BC57 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		607FACE51AFB9204008FA782 /* Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = Tests.xctest; path = AMEdgeView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6617F28FC48089B7CEAB54EB /* Pods-AMEdgeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMEdgeView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMEdgeView_Tests/Pods-AMEdgeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A3CEBDE989FEB0454A3B34B7 /* Pods-AMEdgeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMEdgeView_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AMEdgeView_Tests/Pods-AMEdgeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		B2108F508E7FA3264D33E3ED /* AMEdgeView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AMEdgeView.podspec; path = ../AMEdgeView.podspec; sourceTree = "<group>"; };
-		C89EBF71C3F6F92D29FF9388 /* Pods_AMEdgeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMEdgeView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE8870F995D39D6FA084FF51 /* Pods-AMEdgeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AMEdgeView_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AMEdgeView_Tests/Pods-AMEdgeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		E74218D5DD80A982CF3C34BD /* Pods_AMEdgeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMEdgeView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -28,17 +28,17 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				972ADCAAEDBDE0F77C8D20B8 /* Pods_AMEdgeView_Tests.framework in Frameworks */,
+				F7DE6D7293A006871BF39A8E /* Pods_AMEdgeView_Tests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		58C8199AE65314F3881FA9E5 /* Frameworks */ = {
+		16746EE9A2F49F95D6F9D7D1 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				C89EBF71C3F6F92D29FF9388 /* Pods_AMEdgeView_Tests.framework */,
+				E74218D5DD80A982CF3C34BD /* Pods_AMEdgeView_Tests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -49,8 +49,8 @@
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACE81AFB9204008FA782 /* Tests */,
 				607FACD11AFB9204008FA782 /* Products */,
-				A4D0A2151C81DFA2977F36A6 /* Pods */,
-				58C8199AE65314F3881FA9E5 /* Frameworks */,
+				FACB17C266E651558AAEACCE /* Pods */,
+				16746EE9A2F49F95D6F9D7D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -89,11 +89,11 @@
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		A4D0A2151C81DFA2977F36A6 /* Pods */ = {
+		FACB17C266E651558AAEACCE /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				21B185F1895A592DFBED3643 /* Pods-AMEdgeView_Tests.debug.xcconfig */,
-				6617F28FC48089B7CEAB54EB /* Pods-AMEdgeView_Tests.release.xcconfig */,
+				CE8870F995D39D6FA084FF51 /* Pods-AMEdgeView_Tests.debug.xcconfig */,
+				A3CEBDE989FEB0454A3B34B7 /* Pods-AMEdgeView_Tests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -105,12 +105,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 607FACF21AFB9204008FA782 /* Build configuration list for PBXNativeTarget "AMEdgeView_Tests" */;
 			buildPhases = (
-				1776E24B17543C2E3109F99A /* Check Pods Manifest.lock */,
+				ECF00948F53CB60AD05A54A6 /* [CP] Check Pods Manifest.lock */,
 				607FACE11AFB9204008FA782 /* Sources */,
 				607FACE21AFB9204008FA782 /* Frameworks */,
 				607FACE31AFB9204008FA782 /* Resources */,
-				8CD7F1CB2B026F16A788FB99 /* Embed Pods Frameworks */,
-				A44B8D5337DA3A9FA2B4A50C /* Copy Pods Resources */,
+				0A86901AE244BB77FD452890 /* [CP] Embed Pods Frameworks */,
+				17B8C2AF0F9EF3F3C67BAD7F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,29 +166,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1776E24B17543C2E3109F99A /* Check Pods Manifest.lock */ = {
+		0A86901AE244BB77FD452890 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		8CD7F1CB2B026F16A788FB99 /* Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Embed Pods Frameworks";
+			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -196,19 +181,34 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMEdgeView_Tests/Pods-AMEdgeView_Tests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A44B8D5337DA3A9FA2B4A50C /* Copy Pods Resources */ = {
+		17B8C2AF0F9EF3F3C67BAD7F /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 			);
-			name = "Copy Pods Resources";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-AMEdgeView_Tests/Pods-AMEdgeView_Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF00948F53CB60AD05A54A6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -308,7 +308,7 @@
 		};
 		607FACF31AFB9204008FA782 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 21B185F1895A592DFBED3643 /* Pods-AMEdgeView_Tests.debug.xcconfig */;
+			baseConfigurationReference = CE8870F995D39D6FA084FF51 /* Pods-AMEdgeView_Tests.debug.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
@@ -327,7 +327,7 @@
 		};
 		607FACF41AFB9204008FA782 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6617F28FC48089B7CEAB54EB /* Pods-AMEdgeView_Tests.release.xcconfig */;
+			baseConfigurationReference = A3CEBDE989FEB0454A3B34B7 /* Pods-AMEdgeView_Tests.release.xcconfig */;
 			buildSettings = {
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
