@@ -14,7 +14,9 @@ public enum EdgePosition {
   bottom,
   left
   
-  fileprivate func horizontalConstraintFormat(_ viewName: String, leadingSpace: CGFloat, trailingSpace: CGFloat) -> String {
+  fileprivate func horizontalConstraintFormat(_ viewName: String,
+                                              leadingSpace: CGFloat,
+                                              trailingSpace: CGFloat) -> String {
     switch self {
     case .top, .bottom: return "H:|-(\(leadingSpace))-[\(viewName)]-(\(trailingSpace))-|"
     case .right: return "H:[\(viewName)]|"
@@ -22,7 +24,9 @@ public enum EdgePosition {
     }
   }
   
-  fileprivate func verticalConstraintFormat(_ viewName: String, leadingSpace: CGFloat, trailingSpace: CGFloat) -> String {
+  fileprivate func verticalConstraintFormat(_ viewName: String,
+                                            leadingSpace: CGFloat,
+                                            trailingSpace: CGFloat) -> String {
     switch self {
     case .right, .left: return "V:|-(\(leadingSpace))-[\(viewName)]-(\(trailingSpace))-|"
     case .top: return "V:|[\(viewName)]"
@@ -66,11 +70,14 @@ open class EdgeView: UIView {
       view.addSubview(border)
       
       let borderName = "border"
-      view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: position.horizontalConstraintFormat(borderName, leadingSpace: leadingSpace, trailingSpace: trailingSpace),
+      view.addConstraints(NSLayoutConstraint.constraints(
+        withVisualFormat: position.horizontalConstraintFormat(borderName, leadingSpace: leadingSpace, trailingSpace: trailingSpace),
         options: NSLayoutFormatOptions(rawValue: 0),
         metrics: nil,
         views: [borderName: border]))
-      view.addConstraints(NSLayoutConstraint.constraints(withVisualFormat: position.verticalConstraintFormat(borderName, leadingSpace: leadingSpace, trailingSpace: trailingSpace),
+    
+      view.addConstraints(NSLayoutConstraint.constraints(
+        withVisualFormat: position.verticalConstraintFormat(borderName, leadingSpace: leadingSpace, trailingSpace: trailingSpace),
         options: NSLayoutFormatOptions(rawValue: 0),
         metrics: nil,
         views: [borderName: border]))
@@ -121,12 +128,12 @@ open class EdgeView: UIView {
   
   fileprivate func setUpBorderWidthConstraint() {
     borderWidthConstraint = NSLayoutConstraint(item: self,
-      attribute: edgePosition.widthLayoutAttribute,
-      relatedBy: .equal,
-      toItem: nil,
-      attribute: .notAnAttribute,
-      multiplier: 0,
-      constant: self.borderWidth)
+                                               attribute: edgePosition.widthLayoutAttribute,
+                                               relatedBy: .equal,
+                                               toItem: nil,
+                                               attribute: .notAnAttribute,
+                                               multiplier: 0,
+                                               constant: self.borderWidth)
     self.addConstraint(borderWidthConstraint)
   }
   
@@ -143,16 +150,17 @@ open class EdgeView: UIView {
 extension UIView {
   
   public func AM_addEdge(_ position: EdgePosition,
-    width: CGFloat = 1.0,
-    color: UIColor = UIColor.black,
-    leadingSpace: CGFloat = 0.0,
-    trailingSpace: CGFloat = 0.0) -> EdgeView {
+                         width: CGFloat = 1.0,
+                         color: UIColor = UIColor.black,
+                         leadingSpace: CGFloat = 0.0,
+                         trailingSpace: CGFloat = 0.0) -> EdgeView {
+    
       return EdgeView.addEdgeToView(self,
-        position: position,
-        width: width,
-        color: color,
-        leadingSpace: leadingSpace,
-        trailingSpace: trailingSpace)
+                                    position: position,
+                                    width: width,
+                                    color: color,
+                                    leadingSpace: leadingSpace,
+                                    trailingSpace: trailingSpace)
   }
   
 }
