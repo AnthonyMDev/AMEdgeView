@@ -9,37 +9,41 @@
 import UIKit
 
 public enum EdgePosition {
-  case Top,
-  Right,
-  Bottom,
-  Left
+  case top,
+  right,
+  bottom,
+  left
   
-  private func horizontalConstraintFormat(viewName: String, leadingSpace: CGFloat, trailingSpace: CGFloat) -> String {
+  fileprivate func horizontalConstraintFormat(_ viewName: String,
+                                              leadingSpace: CGFloat,
+                                              trailingSpace: CGFloat) -> String {
     switch self {
-    case Top, Bottom: return "H:|-(\(leadingSpace))-[\(viewName)]-(\(trailingSpace))-|"
-    case Right: return "H:[\(viewName)]|"
-    case Left: return "H:|[\(viewName)]"
+    case .top, .bottom: return "H:|-(\(leadingSpace))-[\(viewName)]-(\(trailingSpace))-|"
+    case .right: return "H:[\(viewName)]|"
+    case .left: return "H:|[\(viewName)]"
     }
   }
   
-  private func verticalConstraintFormat(viewName: String, leadingSpace: CGFloat, trailingSpace: CGFloat) -> String {
+  fileprivate func verticalConstraintFormat(_ viewName: String,
+                                            leadingSpace: CGFloat,
+                                            trailingSpace: CGFloat) -> String {
     switch self {
-    case Right, Left: return "V:|-(\(leadingSpace))-[\(viewName)]-(\(trailingSpace))-|"
-    case Top: return "V:|[\(viewName)]"
-    case Bottom: return "V:[\(viewName)]|"
+    case .right, .left: return "V:|-(\(leadingSpace))-[\(viewName)]-(\(trailingSpace))-|"
+    case .top: return "V:|[\(viewName)]"
+    case .bottom: return "V:[\(viewName)]|"
     }
   }
   
-  private var widthLayoutAttribute: NSLayoutAttribute {
+  fileprivate var widthLayoutAttribute: NSLayoutAttribute {
     switch self {
-    case Right, Left: return .Width
-    case Top, Bottom: return .Height
+    case .right, .left: return .width
+    case .top, .bottom: return .height
     }
   }
 }
 
 /// A `UIView` subclass that can be used as a border added to another view on one edge.
-public class EdgeView: UIView {
+open class EdgeView: UIView {
   
   /*
   *  MARK: - Class Methods
@@ -55,10 +59,10 @@ public class EdgeView: UIView {
   
   - returns: The `BorderView` that was added to the view
   */
-  public class func addEdgeToView(view: UIView,
+  open class func addEdgeToView(_ view: UIView,
     position: EdgePosition,
     width: CGFloat = 1.0,
-    color: UIColor = UIColor.blackColor(),
+    color: UIColor = UIColor.black,
     leadingSpace: CGFloat = 0.0,
     trailingSpace: CGFloat = 0.0) -> EdgeView {
       let border = EdgeView(position: position)
@@ -66,11 +70,14 @@ public class EdgeView: UIView {
       view.addSubview(border)
       
       let borderName = "border"
-      view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat(position.horizontalConstraintFormat(borderName, leadingSpace: leadingSpace, trailingSpace: trailingSpace),
+      view.addConstraints(NSLayoutConstraint.constraints(
+        withVisualFormat: position.horizontalConstraintFormat(borderName, leadingSpace: leadingSpace, trailingSpace: trailingSpace),
         options: NSLayoutFormatOptions(rawValue: 0),
         metrics: nil,
         views: [borderName: border]))
-      view.addConstraints(NSLayoutConstraint.constraintsWithVisualFormat(position.verticalConstraintFormat(borderName, leadingSpace: leadingSpace, trailingSpace: trailingSpace),
+    
+      view.addConstraints(NSLayoutConstraint.constraints(
+        withVisualFormat: position.verticalConstraintFormat(borderName, leadingSpace: leadingSpace, trailingSpace: trailingSpace),
         options: NSLayoutFormatOptions(rawValue: 0),
         metrics: nil,
         views: [borderName: border]))
@@ -86,32 +93,32 @@ public class EdgeView: UIView {
   */
   
   /// The color of the border. Defaults to `UIColor.blackColor()`
-  public var borderColor: UIColor = UIColor.blackColor() {
+  open var borderColor: UIColor = UIColor.black {
     didSet {
       backgroundColor = borderColor
     }
   }
   
   /// The width of the border. Defaults to `1.0`
-  public var borderWidth: CGFloat = 1.0 {
+  open var borderWidth: CGFloat = 1.0 {
     didSet {
       borderWidthConstraint.constant = borderWidth
     }
   }
   
-  private var borderWidthConstraint: NSLayoutConstraint!
+  fileprivate var borderWidthConstraint: NSLayoutConstraint!
   
-  private let edgePosition: EdgePosition
+  fileprivate let edgePosition: EdgePosition
   
   /*
   *  MARK: - Object Lifecycle
   */
   
-  private convenience init(position: EdgePosition) {
-    self.init(frame: CGRectZero, position: position)
+  fileprivate convenience init(position: EdgePosition) {
+    self.init(frame: CGRect.zero, position: position)
   }
   
-  private init(frame: CGRect, position: EdgePosition) {
+  fileprivate init(frame: CGRect, position: EdgePosition) {
     self.edgePosition = position
     
     super.init(frame: frame)
@@ -119,19 +126,19 @@ public class EdgeView: UIView {
     setUpBorderWidthConstraint()
   }
   
-  private func setUpBorderWidthConstraint() {
+  fileprivate func setUpBorderWidthConstraint() {
     borderWidthConstraint = NSLayoutConstraint(item: self,
-      attribute: edgePosition.widthLayoutAttribute,
-      relatedBy: .Equal,
-      toItem: nil,
-      attribute: .NotAnAttribute,
-      multiplier: 0,
-      constant: self.borderWidth)
+                                               attribute: edgePosition.widthLayoutAttribute,
+                                               relatedBy: .equal,
+                                               toItem: nil,
+                                               attribute: .notAnAttribute,
+                                               multiplier: 0,
+                                               constant: self.borderWidth)
     self.addConstraint(borderWidthConstraint)
   }
   
   public required init?(coder aDecoder: NSCoder) {
-    self.edgePosition = .Bottom
+    self.edgePosition = .bottom
     
     super.init(coder: aDecoder)
     
@@ -142,17 +149,18 @@ public class EdgeView: UIView {
 
 extension UIView {
   
-  public func AM_addEdge(position: EdgePosition,
-    width: CGFloat = 1.0,
-    color: UIColor = UIColor.blackColor(),
-    leadingSpace: CGFloat = 0.0,
-    trailingSpace: CGFloat = 0.0) -> EdgeView {
+  public func AM_addEdge(_ position: EdgePosition,
+                         width: CGFloat = 1.0,
+                         color: UIColor = UIColor.black,
+                         leadingSpace: CGFloat = 0.0,
+                         trailingSpace: CGFloat = 0.0) -> EdgeView {
+    
       return EdgeView.addEdgeToView(self,
-        position: position,
-        width: width,
-        color: color,
-        leadingSpace: leadingSpace,
-        trailingSpace: trailingSpace)
+                                    position: position,
+                                    width: width,
+                                    color: color,
+                                    leadingSpace: leadingSpace,
+                                    trailingSpace: trailingSpace)
   }
   
 }
