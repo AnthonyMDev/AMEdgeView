@@ -7,72 +7,102 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		088F818256C2E38E93E6689573CA0416 /* AMEdgeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 966595F26A1BE329CD4A0C63A03B49C4 /* AMEdgeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1201431DB18A119CEDAFFA8E1F6A2337 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
-		5E4F5ADA76CC50A4C14E5559E085F612 /* AMEdgeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A465FBC260AC3077A9AF4E39C56C587 /* AMEdgeView-dummy.m */; };
-		6036DF443BDCC8EFB67BA609B067614A /* Pods-AMEdgeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2286F918D814ACE9E2949A10DDA4F4A1 /* Pods-AMEdgeView_Tests-dummy.m */; };
-		657825D3FE55E98E3BDA78057EA389BB /* EdgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3851FB1EBBA27DA95C4A64C4382B75D2 /* EdgeView.swift */; };
-		991A9C7082BA2FB96A765F3664718FAB /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */; };
-		E9864718F6F2C5820549AFFFD574350D /* Pods-AMEdgeView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1ACF61DB5077D023D93A8E304607A86B /* Pods-AMEdgeView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F7173243DF3DE4609DB7C2EF2AACA9E6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */; };
+		49221C9910087FC5C059E27B1E001C4F /* Pods-AMEdgeView_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1E63B1134A1DEB162B13E3DD65F6F8C4 /* Pods-AMEdgeView_Tests-dummy.m */; };
+		5ABB4945A0DA60A7AD9B524D07345BAE /* Pods-AMEdgeView_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D2C4B738F931E5326DB3A93F48E41EB8 /* Pods-AMEdgeView_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		711E6BAE1E41E26CF4B496FA5CE6A5C8 /* EdgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0C92FF9D5A285559959B20E966F9CC3 /* EdgeView.swift */; };
+		7F58637387FA09DE77FE9886D38B018F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		9975C3DB9D5D3C7ACA2E9CC73416BFCD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 908E902E026C5C22904CF9014A5604AD /* Foundation.framework */; };
+		AC1F0529858FDC049038004B027AFE29 /* AMEdgeView-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 084F13FC6920FE7B800B0E50A8474463 /* AMEdgeView-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B32CA05202FAF885887BFDEEF78DF8C2 /* AMEdgeView-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55A132366788D610E2AD7FCBD33F53EC /* AMEdgeView-dummy.m */; };
+		C0ABE49B2ABF8501C3D9033D301B7C6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		4BA4517EC59A8C5DCA8E5663F2C77FA9 /* PBXContainerItemProxy */ = {
+		367FDD52BADA26B3CD4DF6BB79C73031 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F95ADEA2008CAA4E1F1A1B7EAB413313;
+			remoteGlobalIDString = D5A6E892F67A1E2BA32F2387B08B9D41;
 			remoteInfo = AMEdgeView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0A465FBC260AC3077A9AF4E39C56C587 /* AMEdgeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMEdgeView-dummy.m"; sourceTree = "<group>"; };
-		1476083D6D7442CDF4BA174CDF655DE2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1ACF61DB5077D023D93A8E304607A86B /* Pods-AMEdgeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMEdgeView_Tests-umbrella.h"; sourceTree = "<group>"; };
-		2286F918D814ACE9E2949A10DDA4F4A1 /* Pods-AMEdgeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMEdgeView_Tests-dummy.m"; sourceTree = "<group>"; };
-		3851FB1EBBA27DA95C4A64C4382B75D2 /* EdgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EdgeView.swift; sourceTree = "<group>"; };
-		39CEFC1568E3499AEADE9963E50B1D2B /* AMEdgeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = AMEdgeView.modulemap; sourceTree = "<group>"; };
-		3C691628127380DB082038763A0D87CD /* AMEdgeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMEdgeView-prefix.pch"; sourceTree = "<group>"; };
-		42B95CBF702F63073103496418929AFE /* Pods-AMEdgeView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMEdgeView_Tests-frameworks.sh"; sourceTree = "<group>"; };
-		4FEE3DDFA1DA81036666FE13B05F10EB /* AMEdgeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMEdgeView.xcconfig; sourceTree = "<group>"; };
-		546B857802C44CF13BE5C2ED25AFC26C /* Pods-AMEdgeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMEdgeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		6CA02003B327A9197B7E847431BA0891 /* Pods_AMEdgeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AMEdgeView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		7EE7F9AAC7FEF7496BC55892D703AFB4 /* Pods-AMEdgeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-AMEdgeView_Tests.modulemap"; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		966595F26A1BE329CD4A0C63A03B49C4 /* AMEdgeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMEdgeView-umbrella.h"; sourceTree = "<group>"; };
-		A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		AA01BE3B591401296C8B716220A57809 /* Pods-AMEdgeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMEdgeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		B1A862CB44DCD89492C5A5C1A8E541DE /* Pods-AMEdgeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMEdgeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		CA3F426B22B477BAD4EAFF6F34ABE649 /* Pods-AMEdgeView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMEdgeView_Tests-resources.sh"; sourceTree = "<group>"; };
-		E375293E56A93321A0AAD239DC20EBD4 /* Pods-AMEdgeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMEdgeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		F24C457BEBA975ED9367B6318DB2BC31 /* AMEdgeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AMEdgeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5C02691EB199887E70476A710888154 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0565E6897253D07BE5EF885EBE748C86 /* Pods-AMEdgeView_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AMEdgeView_Tests.modulemap"; sourceTree = "<group>"; };
+		084F13FC6920FE7B800B0E50A8474463 /* AMEdgeView-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMEdgeView-umbrella.h"; sourceTree = "<group>"; };
+		0F53A3E3A73B8CCB0D6F21C53FDEE0E9 /* AMEdgeView-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AMEdgeView-prefix.pch"; sourceTree = "<group>"; };
+		1E63B1134A1DEB162B13E3DD65F6F8C4 /* Pods-AMEdgeView_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AMEdgeView_Tests-dummy.m"; sourceTree = "<group>"; };
+		55A132366788D610E2AD7FCBD33F53EC /* AMEdgeView-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AMEdgeView-dummy.m"; sourceTree = "<group>"; };
+		6CA02003B327A9197B7E847431BA0891 /* Pods_AMEdgeView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AMEdgeView_Tests.framework; path = "Pods-AMEdgeView_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7002C53D454ECC96671432A349F6E2E7 /* AMEdgeView.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = AMEdgeView.modulemap; sourceTree = "<group>"; };
+		72D0461460351309DFD64C95F880501F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		73CA4CC41F0B7A6CA66F2ABB6A6731DF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89AE03EC36B31BEC263E312C309CDF85 /* Pods-AMEdgeView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMEdgeView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		8FF5049D80A3E20B250E29FA74E3130A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		908E902E026C5C22904CF9014A5604AD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B2414277EF0FBFFA32B90F9BF2E3B4F7 /* Pods-AMEdgeView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AMEdgeView_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS11.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C5EAFB1E8DBEAAD90C7E51349F802804 /* Pods-AMEdgeView_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMEdgeView_Tests-resources.sh"; sourceTree = "<group>"; };
+		D2C4B738F931E5326DB3A93F48E41EB8 /* Pods-AMEdgeView_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AMEdgeView_Tests-umbrella.h"; sourceTree = "<group>"; };
+		D873BB2D509A7BC9A3AF57BE5B961408 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		DC97DAB270AFA4BB2DB3B8AE839A1F81 /* AMEdgeView.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AMEdgeView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		DDFF56F235FF9E39C8AACD9166EFD9B9 /* Pods-AMEdgeView_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AMEdgeView_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		DF7FDB48F4AE67B807747C12FE794E43 /* AMEdgeView.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AMEdgeView.xcconfig; sourceTree = "<group>"; };
+		E0C92FF9D5A285559959B20E966F9CC3 /* EdgeView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EdgeView.swift; path = Pod/Classes/EdgeView.swift; sourceTree = "<group>"; };
+		E1B6BCDC0D2896C1BF1C26440E6B46EF /* Pods-AMEdgeView_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AMEdgeView_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0BDAC662E8FFF7A72127BC0EDAC1AD7 /* Pods-AMEdgeView_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AMEdgeView_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		F24C457BEBA975ED9367B6318DB2BC31 /* AMEdgeView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AMEdgeView.framework; path = AMEdgeView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		984F9B95F5C0681B411736825611F8EE /* Frameworks */ = {
+		2B596DB5A734D5DE3A4754D1A6EA1DC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F7173243DF3DE4609DB7C2EF2AACA9E6 /* Foundation.framework in Frameworks */,
-				991A9C7082BA2FB96A765F3664718FAB /* UIKit.framework in Frameworks */,
+				7F58637387FA09DE77FE9886D38B018F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B18A725B249ED67FFE9CE90F9211808C /* Frameworks */ = {
+		CBE0EC60E2904C3C984AC30E651DF6DF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1201431DB18A119CEDAFFA8E1F6A2337 /* Foundation.framework in Frameworks */,
+				9975C3DB9D5D3C7ACA2E9CC73416BFCD /* Foundation.framework in Frameworks */,
+				C0ABE49B2ABF8501C3D9033D301B7C6B /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		056BDABFEED681FFAF091972A1A86BCA /* Pods-AMEdgeView_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				8FF5049D80A3E20B250E29FA74E3130A /* Info.plist */,
+				0565E6897253D07BE5EF885EBE748C86 /* Pods-AMEdgeView_Tests.modulemap */,
+				E1B6BCDC0D2896C1BF1C26440E6B46EF /* Pods-AMEdgeView_Tests-acknowledgements.markdown */,
+				DDFF56F235FF9E39C8AACD9166EFD9B9 /* Pods-AMEdgeView_Tests-acknowledgements.plist */,
+				1E63B1134A1DEB162B13E3DD65F6F8C4 /* Pods-AMEdgeView_Tests-dummy.m */,
+				F0BDAC662E8FFF7A72127BC0EDAC1AD7 /* Pods-AMEdgeView_Tests-frameworks.sh */,
+				C5EAFB1E8DBEAAD90C7E51349F802804 /* Pods-AMEdgeView_Tests-resources.sh */,
+				D2C4B738F931E5326DB3A93F48E41EB8 /* Pods-AMEdgeView_Tests-umbrella.h */,
+				89AE03EC36B31BEC263E312C309CDF85 /* Pods-AMEdgeView_Tests.debug.xcconfig */,
+				B2414277EF0FBFFA32B90F9BF2E3B4F7 /* Pods-AMEdgeView_Tests.release.xcconfig */,
+			);
+			name = "Pods-AMEdgeView_Tests";
+			path = "Target Support Files/Pods-AMEdgeView_Tests";
+			sourceTree = "<group>";
+		};
+		10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				908E902E026C5C22904CF9014A5604AD /* Foundation.framework */,
+				BC2C02191C153C1554B35DEE8B2D09D4 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
 		181516832225E6BEB16DD04C65F23E8E /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -85,7 +115,7 @@
 		3C7543C2C7A6E11C2E04358775B997BE /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				DA999C02B4DB6F87360E2177F3033E47 /* Pods-AMEdgeView_Tests */,
+				056BDABFEED681FFAF091972A1A86BCA /* Pods-AMEdgeView_Tests */,
 			);
 			name = "Targets Support Files";
 			sourceTree = "<group>";
@@ -93,144 +123,112 @@
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */,
+				10DEDCB394BAA0C7FEDEBE330207B074 /* iOS */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5B68EBF1E603A02944FA960C210E8221 /* Classes */ = {
+		6E82294524E5E00BDAB41DEB4A1DC98F /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				3851FB1EBBA27DA95C4A64C4382B75D2 /* EdgeView.swift */,
+				DC97DAB270AFA4BB2DB3B8AE839A1F81 /* AMEdgeView.podspec */,
+				D873BB2D509A7BC9A3AF57BE5B961408 /* LICENSE */,
+				72D0461460351309DFD64C95F880501F /* README.md */,
 			);
-			path = Classes;
-			sourceTree = "<group>";
-		};
-		5EBC60EE81A942BD38B34A6A6A9F0108 /* AMEdgeView */ = {
-			isa = PBXGroup;
-			children = (
-				F5820875D57F248262F09B2400950B37 /* Pod */,
-				9380E3BAEAFC55E0EC11FB608812A760 /* Support Files */,
-			);
-			name = AMEdgeView;
-			path = ../..;
+			name = Pod;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				FD6A6F6A30D683EAB79DA028F59B6042 /* Development Pods */,
+				9006BECB86A1C9D3B98A30E21E2258A4 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
 				181516832225E6BEB16DD04C65F23E8E /* Products */,
 				3C7543C2C7A6E11C2E04358775B997BE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
 		};
-		9380E3BAEAFC55E0EC11FB608812A760 /* Support Files */ = {
+		7E70060C4723C3644E89E65BB3E69425 /* AMEdgeView */ = {
 			isa = PBXGroup;
 			children = (
-				39CEFC1568E3499AEADE9963E50B1D2B /* AMEdgeView.modulemap */,
-				4FEE3DDFA1DA81036666FE13B05F10EB /* AMEdgeView.xcconfig */,
-				0A465FBC260AC3077A9AF4E39C56C587 /* AMEdgeView-dummy.m */,
-				3C691628127380DB082038763A0D87CD /* AMEdgeView-prefix.pch */,
-				966595F26A1BE329CD4A0C63A03B49C4 /* AMEdgeView-umbrella.h */,
-				F5C02691EB199887E70476A710888154 /* Info.plist */,
+				E0C92FF9D5A285559959B20E966F9CC3 /* EdgeView.swift */,
+				6E82294524E5E00BDAB41DEB4A1DC98F /* Pod */,
+				F579463496F1A8D35D02DE2D7A1DB635 /* Support Files */,
+			);
+			name = AMEdgeView;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		9006BECB86A1C9D3B98A30E21E2258A4 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7E70060C4723C3644E89E65BB3E69425 /* AMEdgeView */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		F579463496F1A8D35D02DE2D7A1DB635 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7002C53D454ECC96671432A349F6E2E7 /* AMEdgeView.modulemap */,
+				DF7FDB48F4AE67B807747C12FE794E43 /* AMEdgeView.xcconfig */,
+				55A132366788D610E2AD7FCBD33F53EC /* AMEdgeView-dummy.m */,
+				0F53A3E3A73B8CCB0D6F21C53FDEE0E9 /* AMEdgeView-prefix.pch */,
+				084F13FC6920FE7B800B0E50A8474463 /* AMEdgeView-umbrella.h */,
+				73CA4CC41F0B7A6CA66F2ABB6A6731DF /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/AMEdgeView";
 			sourceTree = "<group>";
 		};
-		DA999C02B4DB6F87360E2177F3033E47 /* Pods-AMEdgeView_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				1476083D6D7442CDF4BA174CDF655DE2 /* Info.plist */,
-				7EE7F9AAC7FEF7496BC55892D703AFB4 /* Pods-AMEdgeView_Tests.modulemap */,
-				B1A862CB44DCD89492C5A5C1A8E541DE /* Pods-AMEdgeView_Tests-acknowledgements.markdown */,
-				AA01BE3B591401296C8B716220A57809 /* Pods-AMEdgeView_Tests-acknowledgements.plist */,
-				2286F918D814ACE9E2949A10DDA4F4A1 /* Pods-AMEdgeView_Tests-dummy.m */,
-				42B95CBF702F63073103496418929AFE /* Pods-AMEdgeView_Tests-frameworks.sh */,
-				CA3F426B22B477BAD4EAFF6F34ABE649 /* Pods-AMEdgeView_Tests-resources.sh */,
-				1ACF61DB5077D023D93A8E304607A86B /* Pods-AMEdgeView_Tests-umbrella.h */,
-				E375293E56A93321A0AAD239DC20EBD4 /* Pods-AMEdgeView_Tests.debug.xcconfig */,
-				546B857802C44CF13BE5C2ED25AFC26C /* Pods-AMEdgeView_Tests.release.xcconfig */,
-			);
-			name = "Pods-AMEdgeView_Tests";
-			path = "Target Support Files/Pods-AMEdgeView_Tests";
-			sourceTree = "<group>";
-		};
-		F302CD3B306AF1ED96B9AF31FCDBC26C /* iOS */ = {
-			isa = PBXGroup;
-			children = (
-				A2A6FF208CEC4C2861F1E9D42D651453 /* Foundation.framework */,
-				E86668F20F252C440D1015B816BE59C5 /* UIKit.framework */,
-			);
-			name = iOS;
-			sourceTree = "<group>";
-		};
-		F5820875D57F248262F09B2400950B37 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				5B68EBF1E603A02944FA960C210E8221 /* Classes */,
-			);
-			path = Pod;
-			sourceTree = "<group>";
-		};
-		FD6A6F6A30D683EAB79DA028F59B6042 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5EBC60EE81A942BD38B34A6A6A9F0108 /* AMEdgeView */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EA158FF6F3F43D9C2A29206446EEA533 /* Headers */ = {
+		1B0E8F2E9805067AAECBDA77D25E27F9 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				088F818256C2E38E93E6689573CA0416 /* AMEdgeView-umbrella.h in Headers */,
+				AC1F0529858FDC049038004B027AFE29 /* AMEdgeView-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F2C2FEB9A1C225EF122E227373F642C8 /* Headers */ = {
+		C7C6DBCC00BC72E5BF72E52BAD3564D5 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E9864718F6F2C5820549AFFFD574350D /* Pods-AMEdgeView_Tests-umbrella.h in Headers */,
+				5ABB4945A0DA60A7AD9B524D07345BAE /* Pods-AMEdgeView_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		F8CD8AC3F137BD57B64E72C380C48BAB /* Pods-AMEdgeView_Tests */ = {
+		BECA5E75454A82380BC5BD2165206C27 /* Pods-AMEdgeView_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E4194AA1218BF838B9BB94361E67D9B1 /* Build configuration list for PBXNativeTarget "Pods-AMEdgeView_Tests" */;
+			buildConfigurationList = 87133FCFCEE67213E6AE21BE4540F365 /* Build configuration list for PBXNativeTarget "Pods-AMEdgeView_Tests" */;
 			buildPhases = (
-				9C6FB30B4749C65E627A1F52717BE19C /* Sources */,
-				B18A725B249ED67FFE9CE90F9211808C /* Frameworks */,
-				F2C2FEB9A1C225EF122E227373F642C8 /* Headers */,
+				FF85278F9EB292D1B8740EB071455DBA /* Sources */,
+				2B596DB5A734D5DE3A4754D1A6EA1DC8 /* Frameworks */,
+				C7C6DBCC00BC72E5BF72E52BAD3564D5 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7FB03567332E648A202D169F1DC379E2 /* PBXTargetDependency */,
+				FBF59B5605A7E7531AA4E2A9C45115F4 /* PBXTargetDependency */,
 			);
 			name = "Pods-AMEdgeView_Tests";
 			productName = "Pods-AMEdgeView_Tests";
 			productReference = 6CA02003B327A9197B7E847431BA0891 /* Pods_AMEdgeView_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F95ADEA2008CAA4E1F1A1B7EAB413313 /* AMEdgeView */ = {
+		D5A6E892F67A1E2BA32F2387B08B9D41 /* AMEdgeView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD162E4ACE94E766DFCE08DACA74925D /* Build configuration list for PBXNativeTarget "AMEdgeView" */;
+			buildConfigurationList = D920EDDC870C280C864BDADF6B26AD95 /* Build configuration list for PBXNativeTarget "AMEdgeView" */;
 			buildPhases = (
-				ABB4EF6B06273171D78D61B50D899AA4 /* Sources */,
-				984F9B95F5C0681B411736825611F8EE /* Frameworks */,
-				EA158FF6F3F43D9C2A29206446EEA533 /* Headers */,
+				2250CF7A4D70B7FCB47DF00D15F32090 /* Sources */,
+				CBE0EC60E2904C3C984AC30E651DF6DF /* Frameworks */,
+				1B0E8F2E9805067AAECBDA77D25E27F9 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -247,16 +245,8 @@
 		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0730;
-				LastUpgradeCheck = 0900;
-				TargetAttributes = {
-					F8CD8AC3F137BD57B64E72C380C48BAB = {
-						LastSwiftMigration = 0800;
-					};
-					F95ADEA2008CAA4E1F1A1B7EAB413313 = {
-						LastSwiftMigration = 0900;
-					};
-				};
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -270,187 +260,216 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F95ADEA2008CAA4E1F1A1B7EAB413313 /* AMEdgeView */,
-				F8CD8AC3F137BD57B64E72C380C48BAB /* Pods-AMEdgeView_Tests */,
+				D5A6E892F67A1E2BA32F2387B08B9D41 /* AMEdgeView */,
+				BECA5E75454A82380BC5BD2165206C27 /* Pods-AMEdgeView_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		9C6FB30B4749C65E627A1F52717BE19C /* Sources */ = {
+		2250CF7A4D70B7FCB47DF00D15F32090 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6036DF443BDCC8EFB67BA609B067614A /* Pods-AMEdgeView_Tests-dummy.m in Sources */,
+				B32CA05202FAF885887BFDEEF78DF8C2 /* AMEdgeView-dummy.m in Sources */,
+				711E6BAE1E41E26CF4B496FA5CE6A5C8 /* EdgeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		ABB4EF6B06273171D78D61B50D899AA4 /* Sources */ = {
+		FF85278F9EB292D1B8740EB071455DBA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E4F5ADA76CC50A4C14E5559E085F612 /* AMEdgeView-dummy.m in Sources */,
-				657825D3FE55E98E3BDA78057EA389BB /* EdgeView.swift in Sources */,
+				49221C9910087FC5C059E27B1E001C4F /* Pods-AMEdgeView_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7FB03567332E648A202D169F1DC379E2 /* PBXTargetDependency */ = {
+		FBF59B5605A7E7531AA4E2A9C45115F4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = AMEdgeView;
-			target = F95ADEA2008CAA4E1F1A1B7EAB413313 /* AMEdgeView */;
-			targetProxy = 4BA4517EC59A8C5DCA8E5663F2C77FA9 /* PBXContainerItemProxy */;
+			target = D5A6E892F67A1E2BA32F2387B08B9D41 /* AMEdgeView */;
+			targetProxy = 367FDD52BADA26B3CD4DF6BB79C73031 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */ = {
+		152D8408FDD5966F83027FE71A174C48 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF7FDB48F4AE67B807747C12FE794E43 /* AMEdgeView.xcconfig */;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = YES;
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"POD_CONFIGURATION_RELEASE=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SYMROOT = "${SRCROOT}/../build";
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		5ED95B08A5C7938016BEAA9F8284A6DC /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FEE3DDFA1DA81036666FE13B05F10EB /* AMEdgeView.xcconfig */;
-			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PREFIX_HEADER = "Target Support Files/AMEdgeView/AMEdgeView-prefix.pch";
 				INFOPLIST_FILE = "Target Support Files/AMEdgeView/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MODULEMAP_FILE = "Target Support Files/AMEdgeView/AMEdgeView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_MODULE_NAME = AMEdgeView;
 				PRODUCT_NAME = AMEdgeView;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
-		BA4EEC75A3872724104E9DF76182D472 /* Release */ = {
+		34F843FFD191F00E586E66FFFDF283ED /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 546B857802C44CF13BE5C2ED25AFC26C /* Pods-AMEdgeView_Tests.release.xcconfig */;
+			baseConfigurationReference = B2414277EF0FBFFA32B90F9BF2E3B4F7 /* Pods-AMEdgeView_Tests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
 				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
 				INFOPLIST_FILE = "Target Support Files/Pods-AMEdgeView_Tests/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = "Target Support Files/Pods-AMEdgeView_Tests/Pods-AMEdgeView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AMEdgeView_Tests;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */ = {
+		7C059385451E8E3698BC5052FA954099 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89AE03EC36B31BEC263E312C309CDF85 /* Pods-AMEdgeView_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-AMEdgeView_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-AMEdgeView_Tests/Pods-AMEdgeView_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F5D7785377BE5FF185BE7BC5F67D08F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DF7FDB48F4AE67B807747C12FE794E43 /* AMEdgeView.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/AMEdgeView/AMEdgeView-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/AMEdgeView/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/AMEdgeView/AMEdgeView.modulemap";
+				PRODUCT_MODULE_NAME = AMEdgeView;
+				PRODUCT_NAME = AMEdgeView;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C7BE62186E17127FF3B5B27A193214BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
 				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -459,87 +478,79 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
 		};
-		E7651C3C174F5A138942EC6A95AF2F3E /* Debug */ = {
+		D077E5AF30E3A09910AC48CA760A1280 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E375293E56A93321A0AAD239DC20EBD4 /* Pods-AMEdgeView_Tests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-AMEdgeView_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-AMEdgeView_Tests/Pods-AMEdgeView_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_AMEdgeView_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
 			};
-			name = Debug;
-		};
-		FEF5595C3E4E3CCAF5AFEC82765F97E0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4FEE3DDFA1DA81036666FE13B05F10EB /* AMEdgeView.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/AMEdgeView/AMEdgeView-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/AMEdgeView/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/AMEdgeView/AMEdgeView.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = AMEdgeView;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
+			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
@@ -547,26 +558,26 @@
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D3E3D092A3FF7311A98E44BBA36FFD12 /* Debug */,
-				0ACDCBCB0B6796575F46FFA2F5410C6B /* Release */,
+				C7BE62186E17127FF3B5B27A193214BD /* Debug */,
+				D077E5AF30E3A09910AC48CA760A1280 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD162E4ACE94E766DFCE08DACA74925D /* Build configuration list for PBXNativeTarget "AMEdgeView" */ = {
+		87133FCFCEE67213E6AE21BE4540F365 /* Build configuration list for PBXNativeTarget "Pods-AMEdgeView_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FEF5595C3E4E3CCAF5AFEC82765F97E0 /* Debug */,
-				5ED95B08A5C7938016BEAA9F8284A6DC /* Release */,
+				7C059385451E8E3698BC5052FA954099 /* Debug */,
+				34F843FFD191F00E586E66FFFDF283ED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E4194AA1218BF838B9BB94361E67D9B1 /* Build configuration list for PBXNativeTarget "Pods-AMEdgeView_Tests" */ = {
+		D920EDDC870C280C864BDADF6B26AD95 /* Build configuration list for PBXNativeTarget "AMEdgeView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				E7651C3C174F5A138942EC6A95AF2F3E /* Debug */,
-				BA4EEC75A3872724104E9DF76182D472 /* Release */,
+				152D8408FDD5966F83027FE71A174C48 /* Debug */,
+				9F5D7785377BE5FF185BE7BC5F67D08F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
