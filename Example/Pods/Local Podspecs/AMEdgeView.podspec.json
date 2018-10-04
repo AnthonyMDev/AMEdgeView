@@ -1,6 +1,6 @@
 {
   "name": "AMEdgeView",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "summary": "A `UIView` subclass that can be used as a border added to another view on one edge.",
   "homepage": "https://github.com/AnthonyMDev/AMEdgeView",
   "license": "MIT",
@@ -9,7 +9,7 @@
   },
   "source": {
     "git": "https://github.com/AnthonyMDev/AMEdgeView.git",
-    "tag": "0.1.0"
+    "tag": "0.3.0"
   },
   "social_media_url": "https://twitter.com/AnthonyMDev",
   "platforms": {

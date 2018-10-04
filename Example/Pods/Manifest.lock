@@ -1,5 +1,5 @@
 PODS:
-  - AMEdgeView (0.1.0)
+  - AMEdgeView (0.3.0)
 
 DEPENDENCIES:
   - AMEdgeView (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AMEdgeView: c6572f52fb1540af0c09a24dc3bb9136b311020f
+  AMEdgeView: 5d9aea2fc03595bfa8d3cfc188cc64a42a206c6c
 
 PODFILE CHECKSUM: eeaf2a19b8bb68a99c2cd03ef70814e212337167
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.5.3
