@@ -1,6 +1,7 @@
 {
   "name": "AMEdgeView",
   "version": "0.3.0",
+  "swift_version": "4.2",
   "summary": "A `UIView` subclass that can be used as a border added to another view on one edge.",
   "homepage": "https://github.com/AnthonyMDev/AMEdgeView",
   "license": "MIT",
