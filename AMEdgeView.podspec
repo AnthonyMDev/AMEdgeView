@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name             = 'AMEdgeView'
-  s.version          = '0.3.0'
+  s.version          = '0.4.0'
   s.swift_version    = '4.2'
   s.summary          = 'A `UIView` subclass that can be used as a border added to another view on one edge.'
 
