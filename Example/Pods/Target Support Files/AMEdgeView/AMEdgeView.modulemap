@@ -1,6 +1,0 @@
-framework module AMEdgeView {
-  umbrella header "AMEdgeView-umbrella.h"
-
-  export *
-  module * { export * }
-}
